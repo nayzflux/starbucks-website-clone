@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "SoDo Sans", system-ui;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-BlackItalic'),
+    url('./fonts/SoDoSans-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Black'),
+    url('./fonts/SoDoSans-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Bold'),
+    url('./fonts/SoDoSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-LightItalic'),
+    url('./fonts/SoDoSans-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Regular'),
+    url('./fonts/SoDoSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Light'),
+    url('./fonts/SoDoSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Italic'),
+    url('./fonts/SoDoSans-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-BoldItalic'),
+    url('./fonts/SoDoSans-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-ThinItalic'),
+    url('./fonts/SoDoSans-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-SemiBoldItalic'),
+    url('./fonts/SoDoSans-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-Thin'),
+    url('./fonts/SoDoSans-Thin.woff2') format('woff2');;
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDoSans-SemiBold'),
+    url('./fonts/SoDoSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
