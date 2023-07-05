@@ -38,7 +38,7 @@ function Footer() {
                 </ul>
 
                 <ul className="flex flex-col space-y-3 md:space-y-8">
-                    <label className="text-black text-lg font-medium">About Us</label>
+                    <label className="text-black text-lg font-medium">Careers</label>
 
                     <li>
                         <a href={"#"} className={"hover:text-black"}>
@@ -75,7 +75,7 @@ function Footer() {
                 </ul>
 
                 <ul className="flex flex-col space-y-3 md:space-y-8">
-                    <label className="text-black text-lg font-medium">About Us</label>
+                    <label className="text-black text-lg font-medium">Social Impact</label>
 
                     <li>
                         <a href={"#"} className={"hover:text-black"}>
@@ -97,7 +97,7 @@ function Footer() {
                 </ul>
 
                 <ul className="flex flex-col space-y-3 md:space-y-8">
-                    <label className="text-black text-lg font-medium">About Us</label>
+                    <label className="text-black text-lg font-medium">For Business Partners</label>
 
                     <li>
                         <a href={"#"} className={"hover:text-black"}>
@@ -125,7 +125,7 @@ function Footer() {
                 </ul>
 
                 <ul className="flex flex-col space-y-3 md:space-y-8">
-                    <label className="text-black text-lg font-medium">About Us</label>
+                    <label className="text-black text-lg font-medium">Order and Pick Up</label>
 
                     <li>
                         <a href={"#"} className={"hover:text-black"}>
