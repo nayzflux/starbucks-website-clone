@@ -16,7 +16,7 @@ function MediumCard({title, description, image}: {title: string; description: st
             </div>
 
             <div className={"md:w-1/2 bg-light-green-forest py-6"}>
-                <img src={image} alt={"Product Image"}/>
+                <img className="w-full" src={image} alt={"Product Image"}/>
             </div>
         </div>
     )

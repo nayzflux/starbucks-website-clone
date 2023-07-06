@@ -16,14 +16,14 @@ function BigCard({title, description, image, bgColor, inverted, colorPadding}: {
                     <OutlinedButton href={"/refreshers"} text={"Order now"}/>
                 </div>
 
-                <div className={`md:w-1/2 ${colorPadding ? "my-3" : ""}`}>
-                    <img src={image} alt={"Product Image"}/>
+                <div className={`md:w-1/2 ${colorPadding ? "md:py-3" : ""}`}>
+                    <img className={"w-full"} src={image} alt={"Product Image"}/>
                 </div>
             </div>
             :
             <div className={`flex w-full text-gray ${bgColor} space-y-4 md:space-y-0 flex-col md:flex-row py-4 md:py-0`}>
                 <div className={"md:w-1/2"}>
-                    <img src={image} alt={"Product Image"}/>
+                    <img className={"w-full"} src={image} alt={"Product Image"}/>
                 </div>
 
                 <div className={"flex flex-col items-center justify-center px-20 space-y-6 text-center md:w-1/2"}>
